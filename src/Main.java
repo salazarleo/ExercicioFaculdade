@@ -70,7 +70,7 @@ public class Main {
 
                 case 4:
                     Verificacao.verificarListaVazia(servicos, "Nenhum serviço cadastrado. Por favor, adicione serviços primeiro.");
-                    System.out.println("Lista de Serviços:");
+                    System.out.println("Lista de Serviços: ");
                     for (Servico servico : servicos) {
                         servico.imprimirService();
                     }
@@ -105,18 +105,18 @@ public class Main {
 
                 case 6:
                     Verificacao.verificarListaVazia(agendarAtendimentos, "Nenhum atendimento encontrado. Por favor, agende um atendimento primeiro.");
-                    System.out.println("Lista de Atendimentos:");
+                    System.out.println("Lista de Atendimentos: ");
                     for (AgendarAtendimento agendamento : agendarAtendimentos) {
                         agendamento.imprimirAgendamento();
                     }
                     break;
 
                 case 0:
-                    System.out.println("Saindo...");
+                    System.out.println("Saindo....");
                     break;
 
                 default:
-                    System.out.println("\n** Opção inválida **\n");
+                    System.out.println("\n** Opção inválida, Tente novamente! **\n");
                     break;
             }
         } while (option != 0);
