@@ -116,7 +116,7 @@ public class Main {
                     break;
 
                 default:
-                    System.out.println("\n** Opção inválida, Tente novamente! **\n");
+                    System.out.println("\n** Opção inválida! Tente Novamente! **\n");
                     break;
             }
         } while (option != 0);
